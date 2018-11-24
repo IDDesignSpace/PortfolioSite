@@ -84,7 +84,6 @@ ul {
 .nav_list {
   margin:0;
   width:100%;
-  border:2px solid white;
   display: flex;
   flex-direction: row;
   justify-content:start;
@@ -108,6 +107,30 @@ ul {
 
 
 /*About*/
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 5% 0 5%;
+  align-items: center;
+}
+
+.about_container {
+  height:350px;
+  background-image:url("../img/technology.jpg");
+  background-size:100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding:5px;
+}
+.about h2 {
+  margin-bottom:10px;
+}
+.about p {
+  line-height: 20px;
+  padding:10px;
+  background-color:rgb(39, 38, 53,.75);
+  color:white;
+}
 
 /*Featured Work*/
 
