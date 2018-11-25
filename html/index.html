@@ -33,25 +33,31 @@
       <main role="main">
         <article>
           <section class="content">
-            <section class="about">
+            <section class="about" id-"about">
               <h2>About Me</h2>
               <div class="about_container">
                 <p>Hello, my name is Ian Ducharme and I am the creator of idDesignspace! I am a 28 year old front-end web developer and web designer living in Philadelphia. I am a dedicated lifelong learner who loves solving puzzles. Learning how to create new things is what truly drives me.</p>
               </div>
             </section>
 
-            <section class="featured_work">
+            <section class="featured_work" id="work">
               <h2 class="featured_work_title">Featured Work</h2>
               <div class="featured_work_container">
-                <a href="https://github.com/udacity/fend-project-memory-game.git"><img src="../img/memory-game.jpg" height="250" width="250" alt="Memory Game"></a>
-                <a href="https://github.com/udacity/fend-project-memory-game.git">Memory Game</a>
-                <a href="https://github.com/udacity/frontend-nanodegree-arcade-game.git"><img src="../img/arcade-game.jpg" height="250"  width="250" alt="Classic Arcade Game"></a>
-                <a href="https://github.com/udacity/frontend-nanodegree-arcade-game.git">Classic Arcade Game</a>
-                <a href="https://github.com/udacity/mws-restaurant-stage-1.git"><img src="../img/restaurant.jpg" height="250" width="250" alt="Restaurant Reviews App"></a>
-                <a href="https://github.com/udacity/mws-restaurant-stage-1.git">Restaurant Reviews App</a>
+                <div class="memory_container">
+                  <a href="https://github.com/udacity/fend-project-memory-game.git"><img src="../img/memory-game.jpg" height="250" width="250" alt="Memory Game"></a>
+                  <a href="https://github.com/udacity/fend-project-memory-game.git">Memory Game</a>
+                </div>
+                <div class="arcade_container">
+                  <a href="https://github.com/udacity/frontend-nanodegree-arcade-game.git"><img src="../img/arcade-game.jpg" height="250"  width="250" alt="Classic Arcade Game"></a>
+                  <a href="https://github.com/udacity/frontend-nanodegree-arcade-game.git">Classic Arcade Game</a>
+                </div>
+                <div class="review_app_container">
+                  <a href="https://github.com/udacity/mws-restaurant-stage-1.git"><img src="../img/restaurant.jpg" height="250" width="250" alt="Restaurant Reviews App"></a>
+                  <a href="https://github.com/udacity/mws-restaurant-stage-1.git">Restaurant Reviews App</a>
+                </div>
               </div>
             </section>
-            <section class="contact">
+            <section class="contact" id="contact">
               <h2>Contact</h2>
               <div class="contact_container">
                 <form class="form" for="contact" id="contact">
@@ -59,21 +65,21 @@
                     <label >*Name</label>
                   </div>
                   <div class="box">
-                    <input type="text" for="contact" placeholder="Name" id="name-input"></input>
+                    <input type="text" for="contact" placeholder="Name" id="name_input"></input>
                   </div>
                   <div class="box">
                     <label >*Email</label>
                   </div>
                   <div class="box">
-                    <input type="email" placeholder="email" class="box" id="email-input"></input>
+                    <input type="email" placeholder="Email" class="box" id="email_input"></input>
                   </div>
                   <div class="box">
                     <label >*Message</label>
                   </div>
                   <div class="box message_container">
-                    <input type="text" name="message" id="message-input" class="message_box"></input>
+                    <input type="text" name="message" id="message_input" class="message_box"></input>
                   </div>
-                  <div class="box">
+                  <div class="box submit">
                     <input type="submit" id="submit-input"></input>
                   </div>
               </form>
