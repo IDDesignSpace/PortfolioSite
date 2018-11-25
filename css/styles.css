@@ -77,7 +77,7 @@ ul {
 
 /*Nav Bar*/
 .nav {
-  background-color: #a6a6a8;
+  background-color: black;
   height:50px;
   width:100%;
   display:flex;
@@ -130,9 +130,14 @@ ul {
   margin:0;
 }
 .about h2 {
-  color: #b1e5f2;
-  margin-bottom:10px;
-  margin-top:5px;
+  height:40px;
+  width:100%;
+  background-color: #a6a6a8;
+  text-align: center;
+  margin:0;
+  padding-top:10px;
+  color:#b1e5f2;
+
 }
 .about p {
   font-size:.9em;
@@ -171,10 +176,50 @@ ul {
   color:black;
   padding:2px 0 10px 0;
 }
+
+/* Contact */
+.contact h2 {
+  height:40px;
+  width:100%;
+  background-color: #a6a6a8;
+  text-align: center;
+  margin:0;
+  padding-top:10px;
+  color:#b1e5f2;
+}
+.contact_container {
+  width:100%;
+  text-align:center;
+}
+.form {
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:30px;
+}
+.box {
+  padding:5px 0 10px 0;
+}
+.message_container {
+
+}
+.message_box {
+  height:200px;
+  width:250px;
+}
+
+#submit-input {
+  padding:10px 20px 10px 20px;
+  border-radius: 10px;
+}
+
 /*Footer*/
 .footer {
-  background-color: #a6a6a8;
+  background-color: black;
   height:50px;
+  color:white;
 }
 
 .footer_list {
