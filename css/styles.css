@@ -20,7 +20,7 @@ html {
 body {
   font-family: 'Rubik', sans-serif;
   color:#272635;
-  background-color:#e8e9f3;
+  background-color:white;
 }
 
 header,
@@ -68,6 +68,7 @@ ul {
   font-family: 'Titillium Web', sans-serif;
   font-size: 2em;
   font-weight:800;
+  color: #b1e5f2;
 }
 
 
@@ -108,31 +109,48 @@ ul {
 
 /*About*/
 .about {
+  height:100%;
   display: flex;
   flex-direction: column;
-  margin: 20px 5% 0 5%;
   align-items: center;
 }
 
 .about_container {
-  height:350px;
+  height:100%;
   background-image:url("../img/technology.jpg");
   background-size:100%;
   background-repeat: no-repeat;
   text-align: center;
-  padding:5px;
+  padding:15px;
+  margin:0;
 }
 .about h2 {
+  color: #b1e5f2;
   margin-bottom:10px;
+  margin-top:10px;
 }
 .about p {
   line-height: 20px;
   padding:10px;
   background-color:rgb(39, 38, 53,.75);
   color:white;
+  margin:0;
 }
 
 /*Featured Work*/
+
+.featured_work {
+  margin:0;
+}
+
+.featured_work_title {
+  height:50px;
+  background-color: #a6a6a8;
+  text-align: center;
+  margin:0;
+  padding-top:18px;
+  color:#b1e5f2;
+}
 
 /*Footer*/
 
