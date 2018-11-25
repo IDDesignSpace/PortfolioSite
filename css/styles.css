@@ -70,6 +70,9 @@ ul {
   font-weight:800;
   color: #b1e5f2;
 }
+.header_subtitle {
+  font-size:.8em;
+}
 
 
 /*Nav Bar*/
@@ -104,6 +107,9 @@ ul {
 .nav_item a {
   color:white;
   font-size:18px;
+}
+ a:hover {
+   color:red;
 }
 
 
