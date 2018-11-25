@@ -125,19 +125,19 @@ ul {
   height:100%;
   background-image:url("../img/technology.jpg");
   background-size:100%;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   text-align: center;
-  padding:15px;
   margin:0;
 }
 .about h2 {
   color: #b1e5f2;
   margin-bottom:10px;
-  margin-top:10px;
+  margin-top:5px;
 }
 .about p {
-  line-height: 20px;
-  padding:10px;
+  font-size:.9em;
+  line-height: 23px;
+  padding:5px;
   background-color:rgb(39, 38, 53,.75);
   color:white;
   margin:0;
@@ -150,14 +150,44 @@ ul {
 }
 
 .featured_work_title {
-  height:50px;
+  height:40px;
   background-color: #a6a6a8;
   text-align: center;
   margin:0;
-  padding-top:18px;
+  padding-top:10px;
   color:#b1e5f2;
 }
+.featured_work_container {
+  padding:20px 0 30px 0;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color:#e8e9f3;
 
+}
+.featured_work a {
+  color:black;
+  padding:2px 0 10px 0;
+}
 /*Footer*/
+.footer {
+  background-color: #a6a6a8;
+  height:50px;
+}
 
+.footer_list {
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:start;
+  align-items: center;
+}
+.footer_item {
+  display: inline-block;
+}
+.fab {
+  padding:10px;
+}
 /*Responsive Styles*/
